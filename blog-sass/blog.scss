@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$text-color:  #FFFFFF;
+ 
+a{
+    text-decoration: none;
+}
+
+
+
+// header part start
+header{
+    width: 100%;
+    margin: 0 auto;
+
+  
+
+.navbar{
+    padding-top: 46px;
+    width: 1200px;
+    margin: 0 auto ;
+    }
+    .container{
+        .collapse{
+            .navbar-nav{
+                .nav-item{
+                    z-index: 2;
+                    a{
+                        font-family: 'Open Sans';
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: #000000;
+                        margin-right: 35px;
+                       
+                    }
+                }
+            }
+            .btn{
+                padding: 8px 40px;
+                background: #FFFFFF;
+                border: 2px solid #1b1818;
+                border-radius: 24px;
+                font-family: 'Open Sans';
+                font-weight: 700;
+                font-size: 16px;
+                align-items: center;
+                color: #0A2640;
+                z-index: 2;
+
+                &:hover{
+                    background: #110101;
+                    color: rgb(243, 243, 248);
+                    border: 2px solid #ba4242;
+
+                }
+            }
+        }
+    }
+
+    .blog{
+        .blog-sub-header{
+            font-family: 'Open Sans';
+            font-weight: 400;
+            font-size: 20px;
+            align-items: center;
+            color: #0A2640;
+            text-align: center;
+            margin-top: 72px;
+            margin-bottom: 12px;
+
+        }
+        .blog-header{
+            font-family: 'Manrope';
+            font-weight: 400;
+            font-size: 64px;
+            text-align: center;
+            color: #0A2640;
+        }
+    
+    }
+    .blog-card{
+        width: 1200px;
+        margin: 0 auto;
+
+        .blog-crad-img{
+            margin-top: 50px;
+            
+            img{
+                &:hover{
+                    width: 555px;
+                }
+            }
+        }
+        .card-body{
+            margin-top: 110px;
+            .card-sub-header{
+                display: flex;
+                margin-top: 24px;
+                margin-bottom: 12px;
+                .card-title{
+                    font-family: 'Open Sans';
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: #0A2640;
+                    margin-right: 12px;
+                   
+
+                }
+                .card-date{
+                    font-family: 'Open Sans';
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #777777;
+                }
+            }
+            .card-text{
+                font-family: 'Manrope';
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 72px;
+                color: #000000;
+            }
+            .blog-bottom-logo{
+                display: flex;
+                margin-top: 30px;
+                .logo-img{
+                    img{
+                        width: 32px;
+                        height: 32px;
+                        margin-right: 12px;
+                    }
+                }
+                .logo-name{
+                    h3{
+                        font-family: 'Open Sans';
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #000000;
+                        padding-top: 6px;
+                    }
+                }
+            }
+        }
+    }
+}
+// header part end
+
+
+
+// blog part start
+.blog{
+    margin-bottom: 198px;
+    
+    
+    .blog-header{
+        font-family: 'Manrope';
+        font-weight: 400;
+        font-size: 48px;
+        color: #000000;
+        width: 1080px;
+       margin: 0 auto;
+    }
+    .blog-card{
+        width: 1200px;
+        margin: 0 auto;
+        .card{
+            width: 300px;
+            border: none;
+            margin-right: 50px;
+            margin-left: 50px;
+            margin-top: 76px;
+
+            img{
+                width: 300px;
+            }
+            .card-body{
+                .card-sub-header{
+                    display: flex;
+                    margin-top: 24px;
+                    margin-bottom: 12px;
+                    .card-title{
+                        font-family: 'Open Sans';
+                        font-weight: 700;
+                        font-size: 16px;
+                        color: #0A2640;
+                        margin-right: 12px;
+                       
+
+                    }
+                    .card-date{
+                        font-family: 'Open Sans';
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #777777;
+                    }
+                }
+                .card-text{
+                    font-family: 'Open Sans';
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: #000000;
+                    height: 99px;
+                    width: 300px;
+                }
+                .blog-bottom-logo{
+                    display: flex;
+                    margin-top: 30px;
+                    .logo-img{
+                        img{
+                            width: 32px;
+                            height: 32px;
+                            margin-right: 12px;
+                        }
+                    }
+                    .logo-name{
+                        h3{
+                            font-family: 'Open Sans';
+                            font-weight: 400;
+                            font-size: 16px;
+                            color: #000000;
+                            padding-top: 6px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .blog-btn{
+            text-align: center; 
+            .btn{
+                width: 219px;
+                height: 60px;
+                border: 2px solid #0A2640;
+                border-radius: 56px;
+                font-family: 'Open Sans';
+                font-weight: 700;
+                font-size: 20px;
+                color: #0A2640;
+                margin-top: 84px;
+
+                &:hover{
+                    background: #110101;
+                    color: rgb(243, 243, 248);
+
+                }
+            }
+        }
+    }
+}
+// blog part end
+
+
+
+// company-website part start
+.company-website{
+    width: 1200px;
+    height: 391px;
+    background: #0A2640;
+    border-radius: 12px;
+    margin: 0 auto;
+    padding-bottom: 72px;
+    position: relative;
+
+    .company-web-shape{
+        position: absolute;
+        top: 0;
+        right: 0;
+        
+    }
+
+    .company-website-content{
+        width: 716px;
+        padding-top: 72px;
+        margin-left: 242px;
+        position: absolute;
+        z-index: 1;
+        .company-website-header{
+            font-family: 'Manrope';
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 72px;
+            text-align: center;
+            
+            color: #FFFFFF;
+        }
+
+        .d-flex{
+            margin-top: 48px;
+            .form-control{
+                background: #FFFFFF;
+                border: 2px solid #FFFFFF;
+                border-radius: 240px;
+                width: 372px;
+                height: 56px;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 32px;
+                text-align: center;
+                color: #000000;
+                margin-left: 48px;
+            }
+            .btn{
+                background: #65E4A3;
+                border: 2px solid #65E4A3;
+                border-radius: 56px;
+                width: 210px;
+                height: 60px;
+                margin-left: 24px;
+                font-family: 'Open Sans';
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 28px;
+                color: #0A2640;
+
+                &:hover{
+                    background: $text-color;
+                    color: black;
+                    border: 2px solid black;
+
+                }
+
+            }
+        }
+    }
+}
+// company-website part start
+
+//  footer part srart 
+footer{
+    width: 1200px;
+    margin: 0 auto;
+    .footer-content{
+        .footer-left{
+            margin-top: 184px;
+            .footer-text{
+                .footer-text-discription{
+                    font-family: 'Open Sans';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    align-items: center;
+                    color: #777777;
+                    width: 300px;
+                    margin-top: 40px;
+                }
+                .footer-text-copyright{
+                    font-family: 'Open Sans';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #777777;
+                    width: 300px;
+                    margin-top: 64px;
+                }
+            }
+        }
+        .footer-right{
+            margin-top: 184px;
+            .footer-card{
+                
+                .card-content{
+                    .card-header{
+                        font-family: 'Open Sans';
+                        font-weight: 700;
+                        font-size: 20px;
+                        align-items: center;
+                        color: #000000;
+                    }
+                    .card-text{
+                        font-family: 'Open Sans';
+                        font-weight: 400;
+                        font-size: 20px;
+                        color: #777777;
+                        margin-top: 25px;
+
+                        span{
+                            width: 72px;
+                            height: 30px;
+                            margin-left: 12px;
+                            background: #65E4A3;
+                            border-radius: 120px;
+                            font-family: 'Open Sans';
+                            font-weight: 700;
+                            font-size: 13px;
+                            color: #0A2640;
+
+                            &:hover{
+                                color: #f8eeee;
+                                background: #000000;
+                            }
+                        }
+
+                        &:hover{
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// footer part end
